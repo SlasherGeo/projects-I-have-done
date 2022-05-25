@@ -1,0 +1,115 @@
+html{
+    background-image: linear-gradient(to bottom right, #4824b7, #3eb2b7);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h1{
+    font-family: "Segoe UI", sans-serif;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+h2 {
+    font-family: "Segoe UI", serif;
+    font-size: 15px;
+    text-align: center;
+}
+#big{
+    height: auto;
+    width: auto;
+    padding: 0;
+}
+#slot1question{
+    color: #d1d1d1;
+    margin-top: 40px;
+    font-size: x-large;
+    text-align: center;
+    font-family: "Segoe UI", serif;
+    margin-bottom: 25px;
+    background-color: #464646
+}
+#answer1{
+    color: #d1d1d1;
+    text-align: center;
+    font-family: "Segoe UI", serif;
+    background-color: #464646
+}
+
+#slot1{
+    margin-top: 15px;
+    margin-right: 0;
+    margin-left: 70px;
+    width: 650px;
+    height: 250px;
+    border: 3px solid darkblue;
+    background-color: #464646
+}
+#intro{
+     color: #a319b7;
+     font-weight: bold;
+     text-shadow: 2px 2px black;
+     font-size: 19px;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     text-align: center;
+     font-family: "Segoe UI", serif;
+ }
+#slot2{
+    border: 3px solid darkblue;
+    width: 650px;
+    height: 250px;
+    margin-left: 70px;
+    margin-top: 25px;
+    float: left;
+
+}
+#slot2quest{
+    font-family: "Segoe UI", serif;
+    text-align: center;
+    margin-top: 15px;
+    font-size: x-large;
+}
+#answer2{
+    font-family: "Segoe UI", serif;
+    margin-top: 10px;
+    text-align: center;
+}
+#listOfLang{
+    margin-top: 20px;
+    text-align: center;
+    list-style-type: none;
+}
+li{
+    font-family: Consolas, serif;
+}
+nav{
+    overflow: auto;
+}
+nav a{
+    font-family: "Segoe UI", sans-serif;
+    background-color: white;
+    float: right;
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+    border-right: 1px solid;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    transition: 0.27s;
+}
+nav a:hover{
+    background-color: black;
+    color: white;
+
+}
+nav img{
+    height: 80px;
+    width: auto;
+    margin: 5px;
+}

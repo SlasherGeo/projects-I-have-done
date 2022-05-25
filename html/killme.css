@@ -1,0 +1,141 @@
+/*background rules*/
+html{
+     background-image: url("https://i.pinimg.com/originals/7d/df/02/7ddf02942fd2af8da7a43f06a73c86c4.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    width: auto;
+
+}
+/*navigational bar rules*/
+body{
+    margin: 0;
+}
+.navSlot{
+    width: 80%;
+    margin: 0 auto;
+}
+header::after{
+     content: '';
+     display: table;
+     clear: both;
+ }
+header{
+    float: right;
+    width: 19%
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+img{
+    float: left;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 8px;
+    height: 90px;
+}
+nav{
+    position: absolute;
+    float: right;
+}
+
+/*noinspection DuplicatedCode*/
+nav a{
+    font-family: "Segoe UI", sans-serif;
+    background-color: white;
+    float: right;
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    margin-top: 10px;
+    transition: 0.27s;
+}
+nav a:hover{
+    background-color: black;
+    color: white;
+}
+
+h1{
+
+    font-family: "Calibri", sans-serif;
+    text-align: center;
+    font-size: 55px;
+    margin: 0;
+    color: #a8a8a8;
+}
+h3{
+     font-family: "High Tower Text", sans-serif;
+     font-weight: bolder;
+     text-align: center;
+
+ }
+.skills{
+    font-size: larger;
+    font-family: "Fira Code Medium", sans-serif;
+}
+#intro{
+     text-align: center;
+     font-family: "Fira Code", sans-serif;
+     line-height: 28px;
+     font-size: 18px;
+     color: #a8a8a8;
+ }
+#slot1{
+    margin-top: 20px;
+    border: 3px solid blue;
+    float: left;
+    height: 350px;
+    width: 500px;
+    margin-left: 210px;
+    background-image: linear-gradient(to bottom right, grey, white);
+    opacity: 0.6;
+    transition: 0.20s;
+}
+#slot1:hover{
+    opacity: 1;
+}
+#slot2{
+    margin-top: 20px;
+    border: 3px solid blue;
+    float: left;
+    height: 350px;
+    width: 500px;
+    margin-left: 75px;
+    background-image: linear-gradient(to bottom right, grey, white);
+    opacity: 0.6;
+    transition: 0.20s;
+}
+#slot2:hover{
+    opacity: 1;
+}
+#slot0{
+    border: 3px solid blue;
+    height: 250px;
+    width: 500px;
+    margin-left: 505px;
+    background-image: linear-gradient(to bottom right, grey, white);
+    opacity: 0.6;
+    transition: 0.20s;
+}
+#slot0:hover{
+    opacity: 1;
+
+}
+#slot0text{
+    text-align: center;
+    line-height: 30px;
+    font-family: "proxima nova", sans-serif;
+    font-size: 20px;
+}
+.schoolStuff{
+    font-family: "JetBrains Mono", sans-serif;
+    font-weight: bold;
+}
+.jobStuff{
+    font-family: "Fira Code Medium", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+

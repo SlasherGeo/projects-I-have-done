@@ -1,0 +1,106 @@
+html{
+    background-image: url("https://i.pinimg.com/originals/7d/df/02/7ddf02942fd2af8da7a43f06a73c86c4.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    width: auto;
+
+}
+body{
+    margin: 0;
+}
+.navSlot{
+    width: 100%;
+    margin: 0 auto;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+header{
+    float: right;
+    width: 16%;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+img{
+    float: left;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 8px;
+    height: 90px;
+}
+nav{
+    position: absolute;
+    float: right;
+}
+
+/*noinspection DuplicatedCode*/
+nav a{
+    font-family: "Segoe UI", sans-serif;
+    background-color: white;
+    float: right;
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    margin-top: 10px;
+    transition: 0.27s;
+}
+nav a:hover{
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-family: "Calibri", sans-serif;
+    color: white;
+
+}
+.contact{
+    margin-top: 80px;
+    height: 620px;
+    width: auto;
+    background-color: black;
+    opacity: 0.7;
+    border-top: 3px solid white;
+}
+h2{
+    color: white;
+    font-family: "Droid Sans Mono", sans-serif;
+    text-align: center;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+p{
+    color: white;
+    font-size: 20px;
+    font-family: "Fira Code Medium", sans-serif;
+    line-height: 1.5;
+}
+p a:hover{
+    color: crimson;
+}
+#socialmedia{
+    height: 600px;
+    width: 550px;
+    float: left;
+
+}
+#phoneemail{
+    float: left;
+    height: 620px;
+    border-right: 3px solid white;
+    border-left: 3px solid white;
+    width: 413px;
+}
+#gamestuff{
+    float: left;
+    height: 600px;
+    width: 550px;
+}
