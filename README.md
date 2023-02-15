@@ -16,3 +16,4 @@ Currently I have no domain set up, but in the future it will get set up.
 The program's objective is to take in a text file and compress its contents with huffman encoding, which is a process commonly used for lossless compression.
 It outputs the same .txt file but with the extension .huf, as shown in secretmessage.txt.huf.
 The same program also decompresses/decodes .huf files.
+The language this program was made in is C++.
